@@ -34,7 +34,7 @@
 
 	<!-- Repository for Clube entity -->
 	<bean id="clubeRepository" parent="repositoryFactory">
-		<property name="proxyInterface" value="com.lucianosilva.lab.core.repository.ClubeRepository" />
+		<property name="proxyInterface" value="com.denism.core.repository.ClubeRepository" />
 	</bean>
 
 </beans>

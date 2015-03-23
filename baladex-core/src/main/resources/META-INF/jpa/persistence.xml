@@ -8,7 +8,7 @@
     <persistence-unit name="labSpringRest" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <!--  <jta-data-source>java:/Laboratorio</jta-data-source>  -->
-        <class>com.lucianosilva.lab.core.entity.Clube</class>
+        <class>com.denism.core.entity.Clube</class>
         <exclude-unlisted-classes />
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLInnoDBDialect"/>

@@ -33,7 +33,7 @@ import com.denism.service.ClubeService;
 public class ClubeController {
 
 	@Autowired
-	ClubeService clubeService;
+	private ClubeService clubeService;
 
 	/**
 	 * 

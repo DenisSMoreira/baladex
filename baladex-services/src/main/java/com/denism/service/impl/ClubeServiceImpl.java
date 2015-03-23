@@ -20,10 +20,10 @@ import com.denism.service.ClubeService;
 public class ClubeServiceImpl implements ClubeService {
 
 	@Autowired
-	ClubeRepository clubeRepo;
+	private ClubeRepository clubeRepo;
 
 	/* (non-Javadoc)
-	 * @see com.lucianosilva.lab.controller.ClubeController#findAll()
+	 * @see com.denism.controller.ClubeController#findAll()
 	 */
 	@Override
 	public List<Clube> findAll() {
