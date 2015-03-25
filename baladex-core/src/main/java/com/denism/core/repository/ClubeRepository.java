@@ -23,7 +23,7 @@ import com.denism.core.generic.JpaGenericDAO;
 public class ClubeRepository extends JpaGenericDAO<Clube, Long> {
 
 	@Autowired
-	EntityManagerFactory entityManagerFactory;
+	private EntityManagerFactory entityManagerFactory;
 	
 	@PostConstruct
 	public void init() {

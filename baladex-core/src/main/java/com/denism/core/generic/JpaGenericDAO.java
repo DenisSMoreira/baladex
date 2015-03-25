@@ -19,8 +19,7 @@ import org.springframework.orm.jpa.support.JpaDaoSupport;
  * @author denism
  * 
  */
-public abstract class JpaGenericDAO<T, ID extends Serializable> extends
-	JpaDaoSupport implements GenericDAO<T, ID> {
+public abstract class JpaGenericDAO<T, ID extends Serializable> extends	JpaDaoSupport implements GenericDAO<T, ID> {
 
 	protected Class<T> entityClass;
 
