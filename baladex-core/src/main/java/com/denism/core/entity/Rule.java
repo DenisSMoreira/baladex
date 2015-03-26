@@ -12,15 +12,6 @@ public class Rule implements BaseEntity<Long> {
 	private String description;
 	private List<String> permission;
 
-	@Override
-	public Long getId() {
-		return this.getRuleId();
-	}
-
-	@Override
-	public void setId(Long id) {
-		this.setRuleId(id);
-	}
 
 	/**
 	 * Retorna o valor do ruleId
@@ -97,5 +88,15 @@ public class Rule implements BaseEntity<Long> {
 	@Override
 	public boolean equals(Object obj) {
 		return EqualsBuilder.reflectionEquals(this, obj);
+	}
+	
+	@Override
+	public Long getId() {
+		return this.getRuleId();
+	}
+
+	@Override
+	public void setId(Long id) {
+		this.setRuleId(id);
 	}
 }

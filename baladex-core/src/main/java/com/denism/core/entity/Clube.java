@@ -116,13 +116,11 @@ public class Clube implements BaseEntity<Long> {
 
 	@Override
 	public Long getId() {
-		//
 		return this.getIdClube();
 	}
 
 	@Override
 	public void setId(Long id) {
-		//
 		this.setIdClube(id);
 	}
 

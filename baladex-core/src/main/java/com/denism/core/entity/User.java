@@ -20,6 +20,23 @@ public class User implements BaseEntity<Long> {
 	private List<Address> addresses;
 	private List<Email> emails;
 	private Login login;
+	private PerfilGamer perfilGamer;
+
+	/**
+	 * Retorna o valor do perfilGamer
+	 * @return the perfilGamer
+	 */
+	public PerfilGamer getPerfilGamer() {
+		return perfilGamer;
+	}
+
+	/**
+	 * Armazena o perfilGamer no campo perfilGamer 
+	 * @param perfilGamer the perfilGamer to set
+	 */
+	public void setPerfilGamer(PerfilGamer perfilGamer) {
+		this.perfilGamer = perfilGamer;
+	}
 
 	/**
 	 * Retorna o valor do userId

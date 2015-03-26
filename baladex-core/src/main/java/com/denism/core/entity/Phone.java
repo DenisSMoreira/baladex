@@ -5,6 +5,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 
 public class Phone implements BaseEntity<Long> {
 
+	private static final long serialVersionUID = 1L;
 	private Long phoneId;
 	private String phoneNumber;
 	private String areaCode;
