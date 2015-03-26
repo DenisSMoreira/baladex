@@ -5,6 +5,11 @@ import java.util.List;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
+/**
+ * PerfilGamer
+ * @author denism
+ * @version $Rev$ $Date$
+ */
 public class PerfilGamer implements BaseEntity<Long>{
 
 	private static final long serialVersionUID = 1L;

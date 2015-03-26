@@ -8,7 +8,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 /**
  * Mission 
  * @author denism
- *
+ * @version $Rev$ $Date$
  */
 public class Mission implements BaseEntity<Long>{
 

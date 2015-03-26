@@ -4,7 +4,7 @@ package com.denism.core.entity;
  * Status
  * 
  * @author denism
- * 
+ * @version $Rev$ $Date$
  */
 public enum Status {
 

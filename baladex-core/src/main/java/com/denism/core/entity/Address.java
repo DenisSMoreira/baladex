@@ -3,6 +3,11 @@ package com.denism.core.entity;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
+/**
+ * Address 
+ * @author denism
+ * @version $Rev$ $Date$
+ */
 public class Address implements BaseEntity<Long> {
 
 	private static final long serialVersionUID = 1L;

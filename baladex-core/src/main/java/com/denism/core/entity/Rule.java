@@ -5,6 +5,11 @@ import java.util.List;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
+/**
+ * Rule
+ * @author denism
+ * @version $Rev$ $Date$
+ */
 public class Rule implements BaseEntity<Long> {
 
 	private static final long serialVersionUID = 1L;
