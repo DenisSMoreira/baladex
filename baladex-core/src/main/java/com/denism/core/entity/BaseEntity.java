@@ -1,25 +1,23 @@
-/**
- * 
- */
 package com.denism.core.entity;
 
 import java.io.Serializable;
 
 /**
  * @author denism
- *
  */
 public interface BaseEntity<T> extends Serializable {
 
 	/**
+	 * getId entity
 	 * 
-	 * @return
+	 * @return id
 	 */
 	T getId();
-	
+
 	/**
+	 * SetId entity
 	 * 
 	 * @param id
 	 */
-	void setId( T id );
+	void setId(T id);
 }

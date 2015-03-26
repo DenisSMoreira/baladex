@@ -23,15 +23,15 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 /**
  * 
- *
+ * 
  * @autor denism
  * @version $Rev$ $Date$
  */
 
 @XmlRootElement
-@Cache (usage=CacheConcurrencyStrategy.TRANSACTIONAL)
+@Cache(usage = CacheConcurrencyStrategy.TRANSACTIONAL)
 @Entity
-@Table( name = "TB_CLUBES" )
+@Table(name = "TB_CLUBES")
 public class Clube implements BaseEntity<Long> {
 
 	/**
@@ -40,7 +40,7 @@ public class Clube implements BaseEntity<Long> {
 	private static final long serialVersionUID = -1437475787538674983L;
 
 	@Id
-	@GeneratedValue( strategy = GenerationType.IDENTITY )
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID_CLUBE", nullable = false)
 	private Long idClube;
 
@@ -62,7 +62,8 @@ public class Clube implements BaseEntity<Long> {
 	}
 
 	/**
-	 * @param idClube the idClube to set
+	 * @param idClube
+	 *            the idClube to set
 	 */
 	public void setIdClube(Long idClube) {
 		this.idClube = idClube;
@@ -76,7 +77,8 @@ public class Clube implements BaseEntity<Long> {
 	}
 
 	/**
-	 * @param nome the nome to set
+	 * @param nome
+	 *            the nome to set
 	 */
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -90,7 +92,8 @@ public class Clube implements BaseEntity<Long> {
 	}
 
 	/**
-	 * @param nomePopular the nomePopular to set
+	 * @param nomePopular
+	 *            the nomePopular to set
 	 */
 	public void setNomePopular(String nomePopular) {
 		this.nomePopular = nomePopular;
@@ -104,7 +107,8 @@ public class Clube implements BaseEntity<Long> {
 	}
 
 	/**
-	 * @param dataFundacao the dataFundacao to set
+	 * @param dataFundacao
+	 *            the dataFundacao to set
 	 */
 	public void setDataFundacao(Date dataFundacao) {
 		this.dataFundacao = dataFundacao;
@@ -112,13 +116,13 @@ public class Clube implements BaseEntity<Long> {
 
 	@Override
 	public Long getId() {
-		// 
+		//
 		return this.getIdClube();
 	}
 
 	@Override
 	public void setId(Long id) {
-		// 
+		//
 		this.setIdClube(id);
 	}
 
