@@ -7,7 +7,7 @@
 	<!-- configuracao do jpa -->
     <persistence-unit name="labSpringRest" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <!--  <jta-data-source>java:/Laboratorio</jta-data-source>  -->
+         <jta-data-source>java:/Laboratorio</jta-data-source> 
         <class>com.denism.core.entity.Clube</class>
         <exclude-unlisted-classes />
         <properties>

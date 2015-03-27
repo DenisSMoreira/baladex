@@ -9,7 +9,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 /**
  * User
  * @author denism
- *
+ * @version $Rev$ $Date$
  */
 public class User implements BaseEntity<Long> {
 
