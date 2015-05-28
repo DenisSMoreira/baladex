@@ -58,8 +58,7 @@ public abstract class JpaGenericDAO<T, ID extends Serializable> extends	JpaDaoSu
 		Object res = getJpaTemplate().execute(new JpaCallback<Object>() {
 
 			public Object doInJpa(EntityManager em) throws PersistenceException {
-				Query q = em.createQuery("SELECT h FROM "
-						+ entityClass.getName() + " h");
+				Query q = em.createQuery("SELECT h FROM " + entityClass.getName() + " h");
 				return q.getResultList();
 			}
 

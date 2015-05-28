@@ -14,7 +14,7 @@
 	<!--  tell spring to use annotation based congfigurations -->
 	<context:annotation-config />
 
-	<context:component-scan base-package="com.lucianosilva.lab" />
+	<context:component-scan base-package="com.denism.lab" />
 
 	<tx:annotation-driven />
 
